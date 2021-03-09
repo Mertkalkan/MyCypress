@@ -1,8 +1,8 @@
 {
-  "name": "cypressproject",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+    "name": "cypressproject",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
     "scripts": {
         "cy:open": "cypress open",
         "cy:run": "cypress run",
@@ -12,11 +12,10 @@
         "cypress:open": "cypress open",
         "cypress:run": "cypress run"
     },
-    "dependencies": {
-        "cypress": "^6.6.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/jest": "^26.0.20",
+        "cypress": "^6.6.0",
         "typescript": "^4.2.3"
     }
 }

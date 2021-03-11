@@ -1,14 +1,12 @@
 {
-    "name": "cypressproject",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.ts",
     "scripts": {
         "cy:open": "cypress open",
         "cy:run": "cypress run",
         "cy:run:firefox": "cypress run --headless --browser firefox",
         "cy:run:chrome": "cypress run --headless --browser chrome",
-        "cy:run:edge": "cypress run --headless --browser edge"
+        "cy:run:edge": "cypress run --headless --browser edge",
+        "cypress:open": "cypress open",
+        "cypress:run": "cypress run"
     },
     "dependencies": {},
     "devDependencies": {

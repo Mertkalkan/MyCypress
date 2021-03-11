@@ -1,7 +1,7 @@
 describe('The Home Page', () => {
 
   beforeEach('Login', () => {
-    cy.login('mert.kalkan@caruso-dataplace.com', 'Albertwandel321');
+    cy.login('latest2020@caruso.cf', '5Fw4AFWkgWh9WD');
   })
 
   it('Does not do much!', () => {

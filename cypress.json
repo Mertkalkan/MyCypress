@@ -1,3 +1,7 @@
 {
-  "baseUrl": "https://caruso:tu4rohGh@demo-portal.caruso-dataplace.com"
+  "baseUrl": "https://demo-portal.caruso-dataplace.com/",
+  "env": {
+    "username": "pre2020@caruso.cf",
+    "password": "VJhQaNxc57sUhJ"
+  }
 }

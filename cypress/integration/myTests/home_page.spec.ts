@@ -1,7 +1,10 @@
 describe('The Home Page', () => {
 
   beforeEach('Login', () => {
-    cy.login('pre2020@caruso.cf', 'VJhQaNxc57sUhJ');
+    const username = Cypress.env('username')
+    const password = Cypress.env('password')
+
+    cy.login(username, password);
   })
 
   it('Does not do much!', () => {
